@@ -26,7 +26,7 @@ func ValidateResponse(resp []byte) bool {
 }
 
 func sendRequest(client *http.Client) ([]byte, error) {
-	response, err := client.Get("https://httpbin.org/get")
+	response, err := client.Get("https://google.com/")
 	if err != nil {
 		return nil, err
 	}
