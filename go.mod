@@ -1,4 +1,4 @@
-module balooChecker
+module bnn
 
 go 1.20
 
